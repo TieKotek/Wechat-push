@@ -60,7 +60,7 @@ def get_weather(region):
     # 风向
     wind_dir = response["now"]["windDir"]
     # 体感
-    feels_like = response["now"]["feelsLike"]
+    feels_like = response["now"]["feelsLike"] + u"\N{DEGREE SIGN}" + "C"
     # 湿度
     humidity = response["now"]["humidity"]
     time = response["updateTime"]
