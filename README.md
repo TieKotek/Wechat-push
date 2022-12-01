@@ -1,6 +1,6 @@
 # daily_reminder
 
-# 大眼仔的任务罢了
+# 大眼仔的圣旨
 
 # Template1
 {{hello.DATA}}
